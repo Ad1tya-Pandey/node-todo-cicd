@@ -20,8 +20,9 @@ pipeline {
                     // Deploy the code to Dockerhub
                   //  sh "docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD"
                   //  sh "docker push  ad1tyapandey/node-todo-test:latest"
-                     echo "pushing to dockerhub" 
-                }
+                    
+                //}
+                echo "pushing to dockerhub"
                 
 
             }
