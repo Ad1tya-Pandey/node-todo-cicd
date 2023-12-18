@@ -16,7 +16,7 @@ pipeline {
         }
         stage('push '){
             steps{
-                 withCredentials([usernamePassword(credentialsId: 'Dockerhub', passwordVariable: 'DOCKER_PASSWORD', usernameVariable: 'DOCKER_USERNAME')]) {
+              //   withCredentials([usernamePassword(credentialsId: 'Dockerhub', passwordVariable: 'DOCKER_PASSWORD', usernameVariable: 'DOCKER_USERNAME')]) {
                     // Deploy the code to Dockerhub
                   //  sh "docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD"
                   //  sh "docker push  ad1tyapandey/node-todo-test:latest"
